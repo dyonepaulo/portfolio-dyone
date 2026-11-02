@@ -21,6 +21,7 @@ Este projeto tem como objetivo apresentar um pouco sobre mim, meus conhecimentos
 ## Sobre o projeto
 
 Este portfólio está em desenvolvimento e será atualizado conforme eu adquirir novos conhecimentos e desenvolver novos projetos.
+Link GitPage: https://dyonepaulo.github.io/portfolio-dyone/
 
 ## Contato
 
