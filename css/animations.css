@@ -1,5 +1,5 @@
 /* animacao do cabecalho */
 nav a:hover {
-    color: #a58fd8;
-    border-bottom: 2px solid #a58fd8;
+    color: var(--cor-destaque);
+    border-bottom: 2px solid var(--cor-destaque);
 }

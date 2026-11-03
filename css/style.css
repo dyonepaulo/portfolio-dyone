@@ -1,11 +1,20 @@
-.borda {
-    border: 2px solid #ff0000;
+:root {
+    --cor-1: #100D18;
+    --cor-2: #1C1728;
+    --cor-3: #302344;
+    --cor-4: #302344;
+    --cor-5: #F3F0FA;
+    --cor-destaque: #A78BFA;
 }
 
 body {
     margin: 0;
     padding: 0;
-    background-color: #100D18;
+    background-color: var(--cor-1);
+}
+
+body * {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* cabecalho */
@@ -16,7 +25,7 @@ header h2 {
 }
 
 header {
-    background-color: #1C1728;
+    background-color: var(--cor-2);
 }
 
 .header-content {
@@ -46,12 +55,11 @@ nav a {
 .conteiner {
     margin: 0 auto;
     width: 75%;
-    background-color: #261e37;
 }
 
 .black-box {
-    background-color: #1C1728;
-    box-shadow: #1C1728 0px 0px 40px;
+    background-color: var(--cor-2);
+    box-shadow: var(--cor-2) 0px 0px 40px;
     padding: 20px;
 }
 
@@ -72,7 +80,6 @@ h1 {
 #home .text {
     padding: 20px;
     width: 50%;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -89,7 +96,7 @@ h1 {
     height: 400px;
     border-radius: 50%;
     margin-top: 20px;
-    box-shadow: #100D18 0px 0px 40px;
+    box-shadow: var(--cor-2) 0px 0px 40px;
 }
 
 #home .paragrafo-apresentacao {
@@ -99,14 +106,9 @@ h1 {
 }
 
 /* parte sobre mim */
-#sobre-mim {
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
 
 #sobre-mim h3 {
-    color: white;
+    color: var(--cor-destaque);
     font-size: 25px;
     margin: 0;
 }
@@ -115,6 +117,42 @@ h1 {
     color: white;
     font-size: 20px;
 }
+
 /* projetos */
+.text-projeto h3 {
+    font-size: 25px;
+    margin: 0;
+    color: var(--cor-destaque);
+}
+
+.text-projeto p {
+    font-size: 20px;
+    color: white;
+}
+
+#projetos figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projetos figure a {
+    color: var(--cor-5);
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: var(--cor-3);
+}
+
 /* habilidades */
+.habilidade-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.icones i {
+    color: var(--cor-destaque);
+}
+
 /* contato */
