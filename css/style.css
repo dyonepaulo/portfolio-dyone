@@ -145,7 +145,6 @@ h1 {
     padding: 15px;
     border-radius: 12ccpx;
     background-color: var(--cor-3);
-    text-decoration-style: dashed;
 }
 #projetos figure img{
     width: 75%;
@@ -187,4 +186,10 @@ form label {
 
 form h3 {
     font-size: 20px;
+}
+form input:user-invalid,textarea:user-invalid{
+    background-color: rgba(255, 82, 82, 0.75); 
+}
+form input:user-valid,textarea:user-valid{
+    background-color: rgb(106, 255, 106);
 }
