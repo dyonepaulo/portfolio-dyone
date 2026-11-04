@@ -1,0 +1,32 @@
+:root {
+    --cor-1: #100D18;
+    --cor-2: #1C1728;
+    --cor-3: #302344;
+    --cor-4: #302344;
+    --cor-5: #F3F0FA;
+    --cor-destaque: #A78BFA;
+}
+
+@media screen and (max-width:970px) {
+
+    /* cabeçalho */
+    .header-content {
+        display: block;
+        text-align: center;
+        width: 100%;
+        border-bottom: 0.1px solid var(--cor-destaque);
+        box-sizing: border-box;
+    }
+
+    .header-content h2 {
+        border-bottom: 0.1px solid var(--cor-destaque);
+        margin: 7px;
+        font-size: 25px;
+    }
+
+    .header-content a {
+        font-size: 17px;
+    }
+
+
+}
