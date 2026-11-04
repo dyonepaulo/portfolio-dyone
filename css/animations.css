@@ -1,5 +1,17 @@
+:root {
+    --cor-1: #100D18;
+    --cor-2: #1C1728;
+    --cor-3: #302344;
+    --cor-4: #302344;
+    --cor-5: #F3F0FA;
+    --cor-destaque: #A78BFA;
+}
 /* animacao do cabecalho */
 nav a:hover {
     color: var(--cor-destaque);
     border-bottom: 2px solid var(--cor-destaque);
+}
+/* animacao conteiner */
+.black-box:hover {
+background-color: var(--cor-4);
 }
