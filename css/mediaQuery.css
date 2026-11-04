@@ -9,12 +9,16 @@
 
 @media screen and (max-width:970px) {
 
+    .conteiner {
+        width: 100%;
+        border: 1px solid red;
+    }
+
     /* cabeçalho */
     .header-content {
-        display: block;
+        display: inline-block;
         text-align: center;
         width: 100%;
-        border-bottom: 0.1px solid var(--cor-destaque);
         box-sizing: border-box;
     }
 
@@ -28,5 +32,25 @@
         font-size: 17px;
     }
 
+    /* principal */
+    #home {
+        display: block;
+        text-align: center;
+    }
+
+    #home .text {
+        width: 100%;
+        
+        margin: 20px;
+    box-sizing: border-box;
+    }
+
+    /* sobre mim */
+
+    /* projetos */
+
+    /* habilidades */
+
+    /* contato */
 
 }
