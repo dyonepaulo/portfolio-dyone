@@ -193,3 +193,24 @@ form input:user-invalid,textarea:user-invalid{
 form input:user-valid,textarea:user-valid{
     background-color: rgb(106, 255, 106);
 }
+/* rodape */
+footer {
+    background-color: var(--cor-2);
+    padding: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer h3 {
+    color: var(--cor-destaque);
+}
+
+footer p {
+    color: var(--cor-5);
+}
+
+footer a {
+    color: var(--cor-5);
+    text-decoration: none;
+}
+

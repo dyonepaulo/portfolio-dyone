@@ -15,3 +15,8 @@ nav a:hover {
 .black-box:hover {
 background-color: var(--cor-4);
 }
+
+/* rodape */
+footer a:hover {
+    color: var(--cor-destaque);
+}
